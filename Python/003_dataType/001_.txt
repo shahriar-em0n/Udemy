@@ -1,0 +1,15 @@
+Data type
+
+- object and mutability
+
+--> everything is object in python
+
+
+object;
+    identity
+    type
+    value
+
+Mutable --- that is changeable
+
+immutable --- that is not changeable
