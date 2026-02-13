@@ -1,0 +1,26 @@
+seat_type = input("Enter seat type (sleeper/AC/general/luxury)").lower()
+
+
+match seat_type:
+    case "sleeper":
+        print("Sleeper - No AC, beds available")
+    case "ac":
+        print("AC - Air conditioned, comfy ride")
+    case "general":
+        print("General - Cheapest option, no reservation")
+    case "luxury":
+        print("Luxury - Premium seats with meals")
+    case _:
+        print("Invalid seat type")
+
+
+    # This function will be tested automatically.
+# Do not change the function name or parameter type.
+def get_item_price(item: str) -> str:
+    item_Price = input("Enter your item: Pizza/Burger/Pasta/Salad").lower()
+
+    match item_Price:
+        case "pizza":
+            print(f"pizza → Price: 30 bucks")
+        case "burger":
+            print(f"burger → Price: 15 bucks ")
